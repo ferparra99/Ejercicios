@@ -1,0 +1,61 @@
+/*Entero x
+Inicio
+x<-
+3
+33
+Repita
+
+Escriba "buenas tardes"
+lea X 
+hasta (x<>3)
+Fin*/
+					/*Ejercicio 2*/
+/*Caracter p
+Entero X
+Inicio
+Repita
+   Escriba "hola pussy"
+   llamar nueva_linea
+   
+   
+	Repita
+	Escriba "tocara repetirle ._."
+	lea p
+	hasta (P<>'h')
+Lea X
+Hasta (x<>3)	 
+
+Fin */
+
+
+						/* Ejercicio 3 */
+	Arreglo [10] de entero vector
+	Entero fila,columna,auxiliar
+	Inicio
+		vector [1]<-3
+		vector [2]<-5
+		vector [4]<-1
+		vector [3]<-2
+		vector [5]<-4	
+			Escriba "llamado de vector con numeros"
+				llamar nueva_linea
+			Para fila <-1 hasta 5 haga
+				Escriba vector[fila]
+			Fin para
+				llamar nueva_linea
+			Para Fila <-1 hasta 5 haga
+				Para columna <-1 hasta 5-fila haga
+					Si vector[columna]>vector[columna+1]	entonces
+						auxiliar <-vector[columna]
+						vector [columna]<-vector  [columna+1]
+						vector [columna+1]<-auxiliar
+					Fin si
+				Fin para		
+			Fin para
+		Escriba "imprimendo los numeros del vector de forma ascendente"
+		llamar nueva_linea
+	Para fila<-1 hasta 5 haga
+		Escriba "posicion",fila,"es:",		vector [fila]	
+		llamar nueva_linea
+	Fin para
+FIN							

@@ -1,0 +1,101 @@
+Arreglo [8] de real reales
+Arreglo [8] de entero enteros
+Arreglo [8] de cadena[8] cadenas
+Arreglo [8] de caracter caracteres
+
+
+
+
+Entero R,E,C,CA
+
+	Inicio
+			Llamar nueva_linea
+		Escriba "Los reales"
+			Llamar nueva_linea
+			
+		Para R<-1 hasta 8 haga 
+		
+			lea reales[R]
+				
+				
+		Fin para
+		
+		Llamar nueva_linea
+		Llamar nueva_linea
+		
+		Para R<-1 hasta 8 haga
+		
+		escriba reales[R]
+			llamar nueva_linea
+		
+		fin para
+		
+			Llamar nueva_linea
+		Escriba "Los enteros"
+			Llamar nueva_linea
+		
+		
+		
+		Para E<-1 hasta 8 haga 
+		
+			lea enteros[E]
+				
+				
+		Fin para
+		
+		Llamar nueva_linea
+		Llamar nueva_linea
+		
+		Para E<-1 hasta 8 haga
+		
+		escriba enteros[E]
+			llamar nueva_linea
+		
+		fin para		
+		
+			Llamar nueva_linea
+		Escriba "Cadenas de caracteres"
+			Llamar nueva_linea
+		
+		
+		Para C<-1 hasta 8 haga 
+		
+			lea cadenas[C]
+				
+				
+		Fin para
+		
+		Llamar nueva_linea
+		Llamar nueva_linea
+		
+		Para C<-1 hasta 8 haga
+		
+		escriba cadenas[C]
+			llamar nueva_linea
+		
+		fin para
+		
+			Llamar nueva_linea
+		Escriba "Los CARACTERES"
+			Llamar nueva_linea
+		
+		
+		Para CA<-1 hasta 8 haga 
+		
+			lea cadenas[CA]
+				
+				
+		Fin para
+		
+		Llamar nueva_linea
+		Llamar nueva_linea
+		
+		Para CA<-1 hasta 8 haga
+		
+		escriba cadenas[CA]
+			llamar nueva_linea
+		
+		fin para
+		
+		
+	Fin

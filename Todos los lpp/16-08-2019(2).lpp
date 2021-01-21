@@ -1,0 +1,14 @@
+Entero I,P	
+INICIO
+	I<-5
+		para I<-1 hasta 15 haga
+			llamar nueva_linea
+			Escriba "silencio"	
+			llamar nueva_linea
+			I<-I+1
+			Escriba I
+		Fin para
+FIN 
+
+		
+			I

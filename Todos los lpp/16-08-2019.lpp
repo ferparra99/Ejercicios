@@ -1,0 +1,9 @@
+Entero i,p		
+Inicio
+  i<-0
+		mientras i< 15 haga
+			Llamar nueva_linea
+			i<-i+2
+			Escriba i
+		Fin mientras
+Fin		

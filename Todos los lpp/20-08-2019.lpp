@@ -1,0 +1,120 @@
+Entero numero1,s,p
+Cadena [2] c
+caracter i
+Real numero2,a,b,x,Multi
+Inicio
+
+	Escriba "ingrese un numero entro "
+	    llamar nueva_linea 
+	lea numero1
+    llamar nueva_linea 
+    
+    Escriba "ingrese una cadena de caracteres "
+        llamar nueva_linea 
+    lea c
+    Llamar nueva_linea
+    
+    Escriba "ingrese un caracter "
+        llamar nueva_linea 
+    lea i
+    llamar nueva_linea
+    
+    Escriba "ingrese un numero real "
+        llamar nueva_linea 
+    lea numero2
+    llamar nueva_linea
+    
+    
+    	Si numero1=123 entonces
+    	
+    			llamar nueva_linea
+    		
+    		Escriba "Exitoso"
+    			llamar nueva_linea
+    		
+    	Sino
+    			llamar nueva_linea
+    		Escriba "Nd, ingrese nuevamente"
+    			llamar nueva_linea
+    		
+    	Fin si
+    	
+		Si c="c" entonces
+    				 llamar nueva_linea
+    			 escriba "Se realizara, una suma "
+    				llamar nueva_linea
+    			Escriba "Un numero"
+    				llamar nueva_linea
+    					Lea a
+    			
+     			Escriba "Un numero"
+    				llamar nueva_linea
+    					Lea b
+    			
+    					x<-a+b
+    			
+    				llamar nueva_linea
+    			Escriba x
+    	Sino	
+    		
+    			escriba "Se realizara, una resta"
+    				llamar nueva_linea
+     			Escriba "Un numero"
+    				llamar nueva_linea
+    					Lea a
+					llamar nueva_linea
+  
+     			Escriba "Un numero"
+    				llamar nueva_linea
+    					Lea b
+    			
+    			   		x<-a-b	
+    			   	
+    			   	llamar nueva_linea
+    			Escriba x	
+    				llamar nueva_linea
+    	Fin si
+    	
+    		 llamar nueva_linea
+    		 	 llamar nueva_linea
+
+    	
+   																			 /*Contador*/ /*holii guapo*/   
+    
+    Si (i='p') entonces
+    
+    	
+    	s<-1
+    	p<-0
+    		Para p <-1 Hasta 10 Haga
+		
+						s<-p+s
+		
+				 llamar nueva_linea
+		
+				escriba p
+				
+		
+			Fin Para 
+	
+		 llamar nueva_linea
+	escriba "la suma de los numeros es",s
+		
+	
+
+    sino
+    Fin si	
+    
+    														
+    																		/*Multiplicacion por 5 */
+   	llamar nueva_linea	
+   	llamar nueva_linea
+	Multi<-Numero2*5
+	
+	escriba multi
+
+    
+FIN    
+    
+    
+    

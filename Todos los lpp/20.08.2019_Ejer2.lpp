@@ -1,0 +1,79 @@
+/*Entero n
+caracter x
+Inicio
+ n<-92
+ x<-car(n)
+ Escriba "el caracter ascci de ",n",es:",x
+ Fin/*
+ 
+											/*Entero n
+											  caracter x
+											  Inicio
+											  x<-'@'
+											  n<- valor ascii(x)
+											  Escriba "el caracter ascii de ",x",es:",n
+											  Fin/*
+  
+ /*Entero n
+ cadena [15]x
+ Inicio
+ 	x<-"victor rincon"
+ 	n<-longitud (x)
+ 	Escriba "la longitud(caracteres)de",x",es:",n*/ 
+ 	
+ 	
+ 	
+ 	
+ 	
+ 
+ /*	real r
+ 	Inicio
+ 	llamar inicializar_Aleatorio ()
+ 	Repita
+ 		r<-aleatorio()*10
+ 		
+ 		Escriba "El numero generado es: ",r
+ 		Llamar nueva_linea
+ 		
+ 		Hasta r=0
+ 	Fin*/ 
+ 	
+ 	
+ 	
+ 	Caracter resp
+ 	real nota
+ 	entero gana, pierde
+ 	
+ 	inicio
+ 		
+ 		gana<-0
+ 		pierde<-0
+ 		
+ 		Repita
+ 			
+ 			escriba "ingrese la nota"
+ 				llamar Nueva_linea
+ 				lea nota
+ 				
+ 					Si (nota>=60) entonces
+ 						gana<-gana+1
+ 					Sino
+ 						pierde<-pierde+1
+ 					Fin si
+ 					
+ 		Repita
+ 			
+ 			escriba "Deseo continuar? S/N"
+ 				llamar Nueva_linea
+ 				lea resp
+ 			hasta (resp='N')o(resp='n')
+ 			
+ 		Hasta (resp='N')
+ 		
+ 			escriba "Total aprobados ",gana
+ 				llamar Nueva_linea
+ 			escriba "Total perdidos ",pierde
+ 				llamar Nueva_linea
+ 			
+ 	Fin
+ 			

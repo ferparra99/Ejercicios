@@ -1,0 +1,25 @@
+entero N
+
+inicio
+
+	lea N
+		Si (N mod 2 )=0 entonces
+			escriba "par"
+				llamar nueva_linea
+
+					Repita
+
+						escriba a
+						N<-N+2
+
+							llamar nueva_linea
+					Hasta (N=50)
+
+
+	
+		sino 
+			escriba "inpar"
+
+		fin si
+
+fin

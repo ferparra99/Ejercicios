@@ -1,0 +1,127 @@
+/*arreglo[30] de cadena [10] cifra
+Entero n
+Inicio
+	cifra [21]<-"1"
+	cifra [29]<-"2"
+	cifra [15]<-"3"
+	cifra [3]<-"4"
+	cifra [4]<-"4"
+	cifra [8]<-"Esternocleidomastoideo"
+	cifra [6]<-"7"
+	cifra [7]<-"8"
+    cifra [9]<-"9"
+    
+    PARA n <-1hasta 20 haga
+    	Escriba cifra [n]
+    		llamar nueva_linea
+    		
+    Fin para 
+    
+FIN /*   			
+
+
+
+										/*EJERCICIO 2*/
+/*arreglo[30] de caracter cifra
+Entero n
+Inicio
+	cifra [21]<-'1'
+	cifra [29]<-'2'
+	cifra [15]<-'3'
+	cifra [3]<-'4'
+	cifra [4]<-'5'
+	cifra [8]<-'6'
+	cifra [6]<-'7'
+	cifra [7]<-'8'
+    cifra [9]<-'9'
+    
+    PARA n <-1hasta 20 haga
+    	Escriba cifra [n]
+    		llamar nueva_linea
+    		
+    Fin para 
+    
+FIN    			*/
+
+ 									/*Ejercicio 3*/
+
+/*arreglo[30] de entero  cifra
+Entero n
+Inicio
+	cifra [21]<-1
+	cifra [29]<-2
+	cifra [15]<-3
+	cifra [3]<-4
+	cifra [4]<-4
+	cifra [8]<-6
+	cifra [6]<-7
+	cifra [7]<-8
+    cifra [9]<-9
+    
+    PARA n <-1hasta 20 haga
+    	Escriba cifra [n]
+    		llamar nueva_linea
+    		
+    Fin para 
+    
+FIN    		*/	
+
+				 
+				 
+				 
+				 
+				 
+				 /*Ejercicio 4*/
+				 
+Arreglo [10]de cadena [20] f 
+Arreglo [10]de entero pap
+Arreglo [10]de caracter uwu
+aRREGLO [10] DE REAL J
+Entero m,n,p
+cadena [20]l,n1,n2,n3,n4,n5,n6,n7,n8,n9
+caracter h
+Inicio	
+Escriba "para ver los datos almacenados oprima enter"
+LLAMAR NUEVA_LINEA
+
+lea L
+
+llamar limpiar_pantalla
+
+	Escriba "oprima n para almacenar datos en la nomina"
+	llamar nueva_linea
+	Escriba "oprima F para ver la cantidad de empleados almacenados"
+	llamar nueva_linea
+	Escriba "Oprima G`para ver la cantidad de empleados almacenados"
+	llamar nueva_linea
+	Escriba "oprima R para ver el monto de gastos almacenados"			 
+	llamar nueva_linea 
+	lea h
+
+		caso h		 
+				 
+				'n','N' :
+				  lLAMAR LIMPIAR_PANTALLA
+				  
+				  
+				  Escriba "ingrese nombres a guardar en la nomina" 
+				 
+				 LEA n1
+				 
+				 f[1]<-n1
+				 llamar nueva_linea
+				 
+				 Escriba "desea agregar algun otro nombre?"
+				 llamar  nueva_linea
+				 lea op
+				 
+				 
+				 
+FIN				 
+				 
+				 
+				 
+				 
+				 
+				 
+	
